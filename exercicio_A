@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int A, B, C;
+
+printf("digite o valor de A: ");
+scanf("%d",&A);
+
+printf("digite o valor de B: ");
+scanf("%d",&B);
+
+if (A>B)
+{
+ C=A-B;
+}
+else
+{
+ C=B-A;
+}
+}
