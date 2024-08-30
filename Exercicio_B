@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+ int N, resultado;
+
+printf("digite o valor de N: ");
+scanf("%d",&N);
+
+if(N<0)
+{
+  resultado=N*-1;
+}
+
+}
